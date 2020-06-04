@@ -92,8 +92,9 @@ public class JavaEmail extends Thread
         /**
          * Sender's credentials
          * */
-        String fromUser = "aditya.jain@vitap.ac.in";
-        String fromUserEmailPassword = "Adityajain7@";
+        //You will also have to enable third party from your gmail settings
+        String fromUser = ""; //add your email id from where you want to send email
+        String fromUserEmailPassword = "";//the password for that google account 
  
         String emailHost = "smtp.gmail.com";
         Transport transport = mailSession.getTransport("smtp");
